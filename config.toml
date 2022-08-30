@@ -14,8 +14,8 @@ disableKinds = ["taxonomy", "term"]
   # image = "img/author.jpg"  # path relative to static directory
 
   links = [
-    { fdroid = { href = "https://f-droid.org", text = "Get it on F-Droid" }},
-    { googleplay = { href = "https://play.google.com", text = "Get it on Google Play" }},
+    { fdroid = { href = "https://f-droid.org", text = "F-Droid" }},
+    { googleplay = { href = "https://play.google.com", text = "Google Play" }},
     { github = "https://github.com/joelpaulkoch/schildpad" },
   ]
 
