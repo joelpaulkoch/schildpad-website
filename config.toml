@@ -9,7 +9,7 @@ enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
 [author]
-  # name = "Joel Koch"
+  name = "Joel Koch"
   # headline = "An awesome person"
   # image = "img/author.jpg"  # path relative to static directory
 
