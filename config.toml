@@ -11,7 +11,7 @@ disableKinds = ["taxonomy", "term"]
 [author]
   name = "Joel Koch"
   # headline = "An awesome person"
-  # image = "img/author.jpg"  # path relative to static directory
+  image = "img/schildpad_logo.svg"  # path relative to static directory
 
   links = [
     { fdroid = { href = "https://f-droid.org", text = "F-Droid" }},
