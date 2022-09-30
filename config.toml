@@ -2,7 +2,7 @@ baseURL = 'https://www.schildpad.app'
 languageCode = 'en-us'
 defaultContentLanguage = "en"
 
-title = "Schildpad"
+title = "Schildpad Launcher"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 enableEmoji = true
