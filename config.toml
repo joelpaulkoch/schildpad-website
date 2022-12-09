@@ -15,7 +15,7 @@ disableKinds = ["taxonomy", "term"]
 
   links = [
     { fdroid = { href = "https://f-droid.org", text = "F-Droid" }},
-    { googleplay = { href = "https://play.google.com", text = "Google Play" }},
+    { googleplay = { href = "https://play.google.com/store/apps/details?id=app.schildpad.schildpad", text = "Google Play" }},
     { github = "https://github.com/joelpaulkoch/schildpad" },
   ]
 
