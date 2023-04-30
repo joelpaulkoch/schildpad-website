@@ -1,11 +1,13 @@
-
-# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - name: Install Hugo dependencies
-    before: brew install hugo
-    init: echo "Your version of Hugo is `hugo version`"
-    command: hugo server -D -F --baseUrl $(gp url 1313) --liveReloadPort=443 --appendPort=false --bind=0.0.0.0
+  - name: Install tailwind
+    before: npm install -D tailwind
+    init: echo "Your version of tailwind is `npx tailwindcss --help`"
+    command: npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
-  - port: 1313
+  - port: 3000
     onOpen: open-preview
+
+vscode:
+  extensions:
+    - ms-vscode.live-server
