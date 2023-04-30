@@ -1,6 +1,9 @@
 # gitpod
 core.*
 
+# tailwind
+tailwindcss
+
 # Generated files by npm
 node_modules/
 

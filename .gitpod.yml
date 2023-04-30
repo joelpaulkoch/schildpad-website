@@ -1,8 +1,10 @@
 tasks:
   - name: Install tailwind
-    before: npm install -D tailwind
-    init: echo "Your version of tailwind is `npx tailwindcss --help`"
-    command: npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+    init: |
+      curl -sLO https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-linux-x64
+      chmod +x tailwindcss-linux-x64
+      mv tailwindcss-linux-x64 tailwindcss
+    command: ./tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
   - port: 3000
