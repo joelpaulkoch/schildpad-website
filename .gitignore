@@ -1,7 +1,8 @@
 # gitpod
 core.*
 
-# tailwind
-tailwindcss
+# npm
+node_modules/
 
-dist/
+# eleventy
+_site/
