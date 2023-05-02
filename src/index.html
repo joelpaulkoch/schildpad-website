@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+
+{% include 'head.html' %}
+
+<body class="flex flex-col h-screen items-center justify-center dark:bg-gray-800 dark:text-white">
+    <main class="flex-grow">
+        <div class="flex flex-col justify-center items-center text-center h-full">
+            <h1 class="text-4xl font-extrabold py-4">Schildpad Launcher</h1>
+            {% include 'logo.html' %}
+            <a
+                href='https://play.google.com/store/apps/details?id=app.schildpad.schildpad&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+                <img class="w-72" alt='Get it on Google Play'
+                    src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' />
+            </a>
+        </div>
+
+    </main>
+    {% include 'partials/footer.html' %}
+</body>
+
+</html>
