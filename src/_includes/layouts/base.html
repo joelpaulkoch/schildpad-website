@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style.css" rel="stylesheet">
+    <link href="/img/schildpad_logo.svg" rel="icon">
+    <title>{{ title }}</title>
+</head>
+
+<body class="flex flex-col h-screen items-center justify-center dark:bg-gray-800 dark:text-white">
+    <main class="flex-grow">
+        {{ content }}
+    </main>
+</body>
+
+{% include 'partials/footer.html' %}
+
+</html>
