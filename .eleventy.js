@@ -12,7 +12,6 @@ module.exports = function (eleventyConfig) {
 
     return {
         dir: {
-            HTMLTemplateEngine: "liquid",
             input: "src",
             includes: "_includes",
             output: "_site"

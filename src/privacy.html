@@ -1,37 +1,18 @@
 <!doctype html>
 <html>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <link href="https://schildpad.app/img/schildpad_logo.svg" rel="icon">
-</head>
+{% include 'head.html' %}
 
 <body class="flex flex-col h-screen px-6 items-center justify-center dark:bg-gray-800 dark:text-white">
     <main class="flex-grow">
         <div class="flex flex-col justify-center items-center text-center h-full">
-            <a href="https://schildpad.app">
-                <img class="h-36 w-36 lg:h-72 lg:w-72" alt="Schildpad Launcher" src="/static/img/schildpad_logo.svg">
-            </a>
+            {% include 'logo.html' %}
             <h1 class="text-4xl font-extrabold py-4">Schildpad Launcher Privacy Policy</h1>
             <p class="">Schildpad Launcher does not collect, use, save or have access to any of your personal
                 data.</p>
         </div>
     </main>
-    <footer class="py-10">
-        <div class="flex flex-col text-center">
-            <a href="https://github.com/joelpaulkoch/schildpad">
-                <div class="flex flex-row justify-center">
-                    <img class="h-5 w-5 dark:hidden" alt="GitHub" src="/static/img/github-mark.svg">
-                    <img class="h-5 w-5 hidden dark:block" alt="GitHub" src="/static/img/github-mark-white.svg">
-                    <p class="hover:underline pl-2 text-center">Contribute</p>
-                </div>
-            </a>
-            <a class="hover:underline" href="/privacy" rel="noopener noreferrer">Privacy</a>
-            <p> &copy; 2023 Joel Koch</p>
-        </div>
-    </footer>
+    {% include 'partials/footer.html' %}
 </body>
 
 </html>
