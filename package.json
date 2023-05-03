@@ -4,8 +4,8 @@
   "description": "Website of Schildpad Launcher",
   "main": "tailwind.config.js",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve & npx tailwindcss -c src/tailwind.config.js -i src/input.css -o _site/style.css --watch",
-    "build": "ELEVENTY_PRODUCTION=true npx @11ty/eleventy && NODE_ENV=production npx tailwindcss -c src/tailwind.config.js -i src/input.css -o _site/style.css --minify"
+    "start": "npx @11ty/eleventy --serve & npx tailwindcss -c tailwind.config.js -i src/input.css -o _site/style.css --watch",
+    "build": "ELEVENTY_PRODUCTION=true npx @11ty/eleventy && NODE_ENV=production npx tailwindcss -c tailwind.config.js -i src/input.css -o _site/style.css --minify"
   },
   "repository": {
     "type": "git",
